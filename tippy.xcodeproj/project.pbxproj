@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF280E0A1DADEC18005CEDE2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF280E091DADEC18005CEDE2 /* SettingsViewController.swift */; };
 		BF97A58E1DAD8502001BBCCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97A58D1DAD8502001BBCCF /* AppDelegate.swift */; };
 		BF97A5901DAD8502001BBCCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97A58F1DAD8502001BBCCF /* ViewController.swift */; };
 		BF97A5931DAD8502001BBCCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF97A5911DAD8502001BBCCF /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF280E091DADEC18005CEDE2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BF97A58A1DAD8502001BBCCF /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97A58D1DAD8502001BBCCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF97A58F1DAD8502001BBCCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				BF97A58D1DAD8502001BBCCF /* AppDelegate.swift */,
+				BF280E091DADEC18005CEDE2 /* SettingsViewController.swift */,
 				BF97A58F1DAD8502001BBCCF /* ViewController.swift */,
 				BF97A5911DAD8502001BBCCF /* Main.storyboard */,
 				BF97A5941DAD8502001BBCCF /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				BF97A5901DAD8502001BBCCF /* ViewController.swift in Sources */,
 				BF97A58E1DAD8502001BBCCF /* AppDelegate.swift in Sources */,
+				BF280E0A1DADEC18005CEDE2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				BF97A5B41DAD8502001BBCCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF97A5B51DAD8502001BBCCF /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				BF97A5B71DAD8502001BBCCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF97A5B81DAD8502001BBCCF /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				BF97A5BA1DAD8502001BBCCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
